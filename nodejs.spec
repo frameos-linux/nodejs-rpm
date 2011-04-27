@@ -1,7 +1,7 @@
 Name:           nodejs
 
 Version:        0.4.5
-Release:        3
+Release:        4%{?dist}
 
 Summary:        Node.js: Evented I/O for V8 JavaScript
 Group:          Development/Languages/Other
@@ -84,6 +84,9 @@ export CXXFLAGS="$CXXFLAGS $RPM_OPT_FLAGS"
 
 
 %changelog
+* Wed Apr 27 2011 Sergio Rubio <rubiojr@frameos.org> - 0.4.5-4
+- add dist macro to Release
+
 * Fri Apr 08 2011 Sergio Rubio <rubiojr@frameos.org> - 0.4.5-3
 - rebuild
 
