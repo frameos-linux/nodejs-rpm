@@ -1,0 +1,367 @@
+diff -uNr -h node-v0.4.0//tools/wafadmin/Build.py node-v0.4.0-patched//tools/wafadmin/Build.py
+--- node-v0.4.0//tools/wafadmin/Build.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Build.py	2011-02-18 01:29:30.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Configure.py node-v0.4.0-patched//tools/wafadmin/Configure.py
+--- node-v0.4.0//tools/wafadmin/Configure.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Configure.py	2011-02-18 01:29:36.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005-2008 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Constants.py node-v0.4.0-patched//tools/wafadmin/Constants.py
+--- node-v0.4.0//tools/wafadmin/Constants.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Constants.py	2011-02-18 01:29:47.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Yinon dot me gmail 2008
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Environment.py node-v0.4.0-patched//tools/wafadmin/Environment.py
+--- node-v0.4.0//tools/wafadmin/Environment.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Environment.py	2011-02-18 01:29:51.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/__init__.py node-v0.4.0-patched//tools/wafadmin/__init__.py
+--- node-v0.4.0//tools/wafadmin/__init__.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/__init__.py	2011-02-18 01:29:57.000000000 +0300
+@@ -1,3 +1,2 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005 (ita)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Logs.py node-v0.4.0-patched//tools/wafadmin/Logs.py
+--- node-v0.4.0//tools/wafadmin/Logs.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Logs.py	2011-02-18 01:30:01.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Node.py node-v0.4.0-patched//tools/wafadmin/Node.py
+--- node-v0.4.0//tools/wafadmin/Node.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Node.py	2011-02-18 01:30:06.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Options.py node-v0.4.0-patched//tools/wafadmin/Options.py
+--- node-v0.4.0//tools/wafadmin/Options.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Options.py	2011-02-18 01:30:11.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Scott Newton, 2005 (scottn)
+ # Thomas Nagy, 2006 (ita)
+diff -uNr -h node-v0.4.0//tools/wafadmin/py3kfixes.py node-v0.4.0-patched//tools/wafadmin/py3kfixes.py
+--- node-v0.4.0//tools/wafadmin/py3kfixes.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/py3kfixes.py	2011-02-18 01:31:00.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2009 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Runner.py node-v0.4.0-patched//tools/wafadmin/Runner.py
+--- node-v0.4.0//tools/wafadmin/Runner.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Runner.py	2011-02-18 01:31:04.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005-2008 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Scripting.py node-v0.4.0-patched//tools/wafadmin/Scripting.py
+--- node-v0.4.0//tools/wafadmin/Scripting.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Scripting.py	2011-02-18 01:31:09.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/TaskGen.py node-v0.4.0-patched//tools/wafadmin/TaskGen.py
+--- node-v0.4.0//tools/wafadmin/TaskGen.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/TaskGen.py	2011-02-18 01:31:18.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005-2008 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Task.py node-v0.4.0-patched//tools/wafadmin/Task.py
+--- node-v0.4.0//tools/wafadmin/Task.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Task.py	2011-02-18 01:31:13.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005-2008 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/ar.py node-v0.4.0-patched//tools/wafadmin/Tools/ar.py
+--- node-v0.4.0//tools/wafadmin/Tools/ar.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/ar.py	2011-02-18 01:36:11.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006-2008 (ita)
+ # Ralf Habacker, 2006 (rh)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/cc.py node-v0.4.0-patched//tools/wafadmin/Tools/cc.py
+--- node-v0.4.0//tools/wafadmin/Tools/cc.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/cc.py	2011-02-18 01:36:06.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/ccroot.py node-v0.4.0-patched//tools/wafadmin/Tools/ccroot.py
+--- node-v0.4.0//tools/wafadmin/Tools/ccroot.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/ccroot.py	2011-02-18 01:36:00.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005-2008 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/compiler_cc.py node-v0.4.0-patched//tools/wafadmin/Tools/compiler_cc.py
+--- node-v0.4.0//tools/wafadmin/Tools/compiler_cc.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/compiler_cc.py	2011-02-18 01:35:55.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Matthias Jahn jahn dôt matthias ât freenet dôt de, 2007 (pmarat)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/compiler_cxx.py node-v0.4.0-patched//tools/wafadmin/Tools/compiler_cxx.py
+--- node-v0.4.0//tools/wafadmin/Tools/compiler_cxx.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/compiler_cxx.py	2011-02-18 01:35:50.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Matthias Jahn jahn dôt matthias ât freenet dôt de 2007 (pmarat)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/compiler_d.py node-v0.4.0-patched//tools/wafadmin/Tools/compiler_d.py
+--- node-v0.4.0//tools/wafadmin/Tools/compiler_d.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/compiler_d.py	2011-02-18 01:35:35.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Carlos Rafael Giani, 2007 (dv)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/config_c.py node-v0.4.0-patched//tools/wafadmin/Tools/config_c.py
+--- node-v0.4.0//tools/wafadmin/Tools/config_c.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/config_c.py	2011-02-18 01:35:45.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005-2008 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/cxx.py node-v0.4.0-patched//tools/wafadmin/Tools/cxx.py
+--- node-v0.4.0//tools/wafadmin/Tools/cxx.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/cxx.py	2011-02-18 01:35:40.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/dmd.py node-v0.4.0-patched//tools/wafadmin/Tools/dmd.py
+--- node-v0.4.0//tools/wafadmin/Tools/dmd.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/dmd.py	2011-02-18 01:35:30.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Carlos Rafael Giani, 2007 (dv)
+ # Thomas Nagy, 2008 (ita)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/d.py node-v0.4.0-patched//tools/wafadmin/Tools/d.py
+--- node-v0.4.0//tools/wafadmin/Tools/d.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/d.py	2011-02-18 01:35:25.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Carlos Rafael Giani, 2007 (dv)
+ # Thomas Nagy, 2007-2008 (ita)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/gas.py node-v0.4.0-patched//tools/wafadmin/Tools/gas.py
+--- node-v0.4.0//tools/wafadmin/Tools/gas.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/gas.py	2011-02-18 01:35:19.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2008 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/gcc.py node-v0.4.0-patched//tools/wafadmin/Tools/gcc.py
+--- node-v0.4.0//tools/wafadmin/Tools/gcc.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/gcc.py	2011-02-18 01:35:07.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006-2008 (ita)
+ # Ralf Habacker, 2006 (rh)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/gdc.py node-v0.4.0-patched//tools/wafadmin/Tools/gdc.py
+--- node-v0.4.0//tools/wafadmin/Tools/gdc.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/gdc.py	2011-02-18 01:35:14.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Carlos Rafael Giani, 2007 (dv)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/gnu_dirs.py node-v0.4.0-patched//tools/wafadmin/Tools/gnu_dirs.py
+--- node-v0.4.0//tools/wafadmin/Tools/gnu_dirs.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/gnu_dirs.py	2011-02-18 01:34:12.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Ali Sabil, 2007
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/gob2.py node-v0.4.0-patched//tools/wafadmin/Tools/gob2.py
+--- node-v0.4.0//tools/wafadmin/Tools/gob2.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/gob2.py	2011-02-18 01:34:35.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Ali Sabil, 2007
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/gxx.py node-v0.4.0-patched//tools/wafadmin/Tools/gxx.py
+--- node-v0.4.0//tools/wafadmin/Tools/gxx.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/gxx.py	2011-02-18 01:34:18.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006 (ita)
+ # Ralf Habacker, 2006 (rh)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/icc.py node-v0.4.0-patched//tools/wafadmin/Tools/icc.py
+--- node-v0.4.0//tools/wafadmin/Tools/icc.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/icc.py	2011-02-18 01:34:24.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Stian Selnes, 2008
+ # Thomas Nagy 2009
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/icpc.py node-v0.4.0-patched//tools/wafadmin/Tools/icpc.py
+--- node-v0.4.0//tools/wafadmin/Tools/icpc.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/icpc.py	2011-02-18 01:34:30.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy 2009
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/__init__.py node-v0.4.0-patched//tools/wafadmin/Tools/__init__.py
+--- node-v0.4.0//tools/wafadmin/Tools/__init__.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/__init__.py	2011-02-18 01:34:56.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/intltool.py node-v0.4.0-patched//tools/wafadmin/Tools/intltool.py
+--- node-v0.4.0//tools/wafadmin/Tools/intltool.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/intltool.py	2011-02-18 01:34:46.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/libtool.py node-v0.4.0-patched//tools/wafadmin/Tools/libtool.py
+--- node-v0.4.0//tools/wafadmin/Tools/libtool.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/libtool.py	2011-02-18 01:34:40.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Matthias Jahn, 2008, jahn matthias ath freenet punto de
+ # Thomas Nagy, 2008 (ita)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/misc.py node-v0.4.0-patched//tools/wafadmin/Tools/misc.py
+--- node-v0.4.0//tools/wafadmin/Tools/misc.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/misc.py	2011-02-18 01:34:51.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/nasm.py node-v0.4.0-patched//tools/wafadmin/Tools/nasm.py
+--- node-v0.4.0//tools/wafadmin/Tools/nasm.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/nasm.py	2011-02-18 01:35:01.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2008
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/osx.py node-v0.4.0-patched//tools/wafadmin/Tools/osx.py
+--- node-v0.4.0//tools/wafadmin/Tools/osx.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/osx.py	2011-02-18 01:33:53.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy 2008
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/preproc.py node-v0.4.0-patched//tools/wafadmin/Tools/preproc.py
+--- node-v0.4.0//tools/wafadmin/Tools/preproc.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/preproc.py	2011-02-18 01:33:58.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006-2009 (ita)
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/python.py node-v0.4.0-patched//tools/wafadmin/Tools/python.py
+--- node-v0.4.0//tools/wafadmin/Tools/python.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/python.py	2011-02-18 01:33:47.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2007 (ita)
+ # Gustavo Carneiro (gjc), 2007
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/suncc.py node-v0.4.0-patched//tools/wafadmin/Tools/suncc.py
+--- node-v0.4.0//tools/wafadmin/Tools/suncc.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/suncc.py	2011-02-18 01:33:43.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006 (ita)
+ # Ralf Habacker, 2006 (rh)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/suncxx.py node-v0.4.0-patched//tools/wafadmin/Tools/suncxx.py
+--- node-v0.4.0//tools/wafadmin/Tools/suncxx.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/suncxx.py	2011-02-18 01:33:39.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006 (ita)
+ # Ralf Habacker, 2006 (rh)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/unittestw.py node-v0.4.0-patched//tools/wafadmin/Tools/unittestw.py
+--- node-v0.4.0//tools/wafadmin/Tools/unittestw.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/unittestw.py	2011-02-18 01:33:29.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Carlos Rafael Giani, 2006
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/winres.py node-v0.4.0-patched//tools/wafadmin/Tools/winres.py
+--- node-v0.4.0//tools/wafadmin/Tools/winres.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/winres.py	2011-02-18 01:33:19.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Brant Young, 2007
+ 
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/xlc.py node-v0.4.0-patched//tools/wafadmin/Tools/xlc.py
+--- node-v0.4.0//tools/wafadmin/Tools/xlc.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/xlc.py	2011-02-18 01:33:34.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006-2008 (ita)
+ # Ralf Habacker, 2006 (rh)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Tools/xlcxx.py node-v0.4.0-patched//tools/wafadmin/Tools/xlcxx.py
+--- node-v0.4.0//tools/wafadmin/Tools/xlcxx.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Tools/xlcxx.py	2011-02-18 01:33:24.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2006 (ita)
+ # Ralf Habacker, 2006 (rh)
+diff -uNr -h node-v0.4.0//tools/wafadmin/Utils.py node-v0.4.0-patched//tools/wafadmin/Utils.py
+--- node-v0.4.0//tools/wafadmin/Utils.py	2011-02-10 13:40:11.000000000 +0300
++++ node-v0.4.0-patched//tools/wafadmin/Utils.py	2011-02-18 01:31:23.000000000 +0300
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # encoding: utf-8
+ # Thomas Nagy, 2005 (ita)
+ 
